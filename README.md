@@ -223,6 +223,3 @@ train_model(model,train_loader,criterion,optimizer,epochs=100)
 
 ## RESULT:
 The neural network classification model was successfully developed and trained to predict customer segments (A, B, C, D). The model achieved good accuracy on the test dataset, demonstrating its effectiveness in classifying new customers into the correct groups.
-
-## RESULT
-Include your result here
