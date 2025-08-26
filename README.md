@@ -12,7 +12,8 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 To apply the same strategy in the new market, we need a neural network classification model that predicts the correct customer segment (A–D) for new customers based on their features.
 ## Neural Network Model Explanation
-1. Architecture
+
+### 1. Architecture
 
 The model is a fully connected feedforward neural network built using PyTorch. It consists of:
 
@@ -60,7 +61,7 @@ Input → Linear(input → 64) → ReLU
       → Linear(16 → 8) → ReLU 
       → Linear(8 → 4) → Output (logits)
 
-2. Activation Functions
+### 2. Activation Functions
 
 ReLU (Rectified Linear Unit) in all hidden layers:
 
@@ -78,7 +79,7 @@ During evaluation, softmax can be applied to obtain class probabilities:
 
 probs = F.softmax(outputs, dim=1)
 
-3. Loss Function
+### 3. Loss Function
 
 CrossEntropyLoss is used.
 
@@ -86,7 +87,7 @@ Standard choice for multi-class classification.
 
 Compares predicted class logits with actual labels.
 
-4. Optimizer
+### 4. Optimizer
 
 Adam optimizer is chosen.
 
@@ -94,7 +95,7 @@ Adaptive learning rate optimization algorithm.
 
 Provides faster convergence and works well for classification tasks.
 
-5. Training & Evaluation
+### 5. Training & Evaluation
 
 ### Training:
 
