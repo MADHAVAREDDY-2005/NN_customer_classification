@@ -109,6 +109,10 @@ Predictions made on the test set.
 
 Metrics used: Accuracy, Confusion Matrix, Classification Report.
 
+## Neural Network Model
+<img width="854" height="866" alt="image" src="https://github.com/user-attachments/assets/02b6ff22-66ac-4842-a549-c757139e6ff9" />
+
+
 ## DESIGN STEPS
 ### STEP 1:
 
